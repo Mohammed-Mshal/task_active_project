@@ -1,6 +1,6 @@
 .section-4 {
     height: 120vh;
-    background: url('/images//Header\ Background.png') no-repeat;
+    background: url('../images/Header\ Background.png') no-repeat;
     background-size: cover;
     position: relative;
     z-index: 0;
