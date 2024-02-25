@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+html {
+    overflow-x: hidden;
+
+}
+
+button {
+    cursor: pointer;
+    transition: .4s all;
+    -webkit-transition: .4s all;
+    -moz-transition: .4s all;
+    -ms-transition: .4s all;
+    -o-transition: .4s all;
+}
+
+.dark:hover {
+    box-shadow: 0 0 10px 0 #343434;
+    cursor: pointer;
+}
+
+.light:hover {
+    box-shadow: 0 0 10px 0 #fefefe;
+    cursor: pointer;
+}
+
+.container {
+    padding: 80px 20px;
+    max-width: 1280px;
+    margin-inline: auto;
+}
+
+main .section .title_section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+main .section .title_section h3 {
+    font-family: "Reey", sans-serif;
+    margin-bottom: 30px;
+}
+
+main .section .title_section.text-white h3 {
+    color: white;
+}
+
+@media (max-width:448px) {
+    main .section .title_section h3 {
+        font-size: 28px;
+    }
+
+    main .section .title_section p {
+        font-size: 18px;
+    }
+
+}
+
+@media (min-width:449px)and (max-width:772px) {
+    main .section .title_section h3 {
+        font-size: 42px;
+    }
+
+    main .section .title_section p {
+        font-size: 20px;
+    }
+}
+
+@media (min-width:773px) and (max-width:1024px) {
+    main .section .title_section h3 {
+        font-size: 65px;
+    }
+
+    main .section .title_section p {
+        font-size: 24px;
+    }
+}
+
+@media (min-width:1025px) {
+    main .section .title_section h3 {
+        font-size: 75px;
+    }
+
+    main .section .title_section p {
+        font-size: 27px;
+    }
+}

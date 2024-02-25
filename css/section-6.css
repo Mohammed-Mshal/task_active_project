@@ -1,0 +1,74 @@
+.section-6 {
+    background: #27292C;
+    position: relative;
+    z-index: 0;
+}
+
+.section-6 .container {
+    padding-block: 200px;
+    max-width: 980px;
+}
+
+@media (max-width:1024px) {
+    .section-6 .container {
+        padding-block: 100px;
+        max-width: 980px;
+    }
+
+}
+
+.section-6 .container img {
+    position: absolute;
+    right: 0;
+    top: -40px;
+    z-index: -1;
+    width: 100%;
+    height: 140%;
+
+}
+
+.section-6 .container .title_section {
+    color: white;
+    gap: 60px;
+}
+
+.section-6 .container form {
+    display: flex;
+    margin-top: 80px;
+}
+
+.section-6 .container input {
+    font-size: 25px;
+    padding: 8px 16px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.section-6 .container input.input_email {
+    flex: 1;
+    padding: 8px 16px;
+}
+
+.section-6 .container input[type="submit"] {
+    background-color: #54524F;
+    width: 200px;
+    color: white;
+    border: 0;
+    margin-left: -80px;
+    transition: .4s all;
+    -webkit-transition: .4s all;
+    -moz-transition: .4s all;
+    -ms-transition: .4s all;
+    -o-transition: .4s all;
+}
+
+@media (max-width:1024px) {
+    .section-6 .container input {
+        font-size: 18px;
+
+    }
+
+}

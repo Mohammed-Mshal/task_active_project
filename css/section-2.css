@@ -1,0 +1,41 @@
+.section-2 {
+    background-color: #27292C;
+}
+
+.section-2 .container {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-2 .content {
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    max-width: 1280px;
+
+}
+
+@media (max-width:1024px) {
+    .section-2 .content {
+        flex-wrap: wrap;
+
+    }
+}
+
+.section-2 .container .button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    background-color: #FEFEFE;
+    border: none;
+    padding: 8px 40px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
